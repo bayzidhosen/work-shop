@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+   
+}
+body{
+    font-size: sans-serif;
+    color: black;
+    background-color:white;
+}
+a{
+    color:lightcoral ;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 20px ;
+}
+.navber-ul{
+    display: flex;
+}
+.logo-p{
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-weight: 300px;
+    cursor: pointer;
+}
+.navber-ul li{
+list-style: none;
+padding:6px 20px ;
+
+}
+.navber-ul li a{
+    text-decoration: none;
+    transition:0.4s ;
+}
+.navber-ul li a:hover{
+    color: #008819;
+}
+.btn{
+    padding:4px 4px ;
+    background-color: seagreen;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #520848d0;
+}
+@media screen and(max-width: 500px){
+    .navber{
+        flex-direction: column;
+    }
+}
+
+
+section{
+    display: flex;
+    
+    
+    
+    
+}
+.tll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+/*Popular Collection*/
+.section-title{
+    text-align: center;
+}
+
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    
+}
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    
+    
+
+
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #f08f11e8;
+}
+.fa-star.empty{
+    color: #e9851249;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+  background-color:#fcfcfc;  
+}
+footer{
+    background-color: black;
+    height:auto ;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight:400 ;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+/* table devices*/
+@media only screen and (min-width:688px) and(max-width:992px){.courses{
+    width: 100%;
+}
+.courses, .courses{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+    
+}
+ 
